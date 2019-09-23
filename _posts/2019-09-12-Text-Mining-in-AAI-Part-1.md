@@ -11,7 +11,7 @@ We began by selecting a set of 15 protocols from studies within the Inner City A
 ## Top 12 Meaningful Words by Study
 <img src="{{ site.baseurl }}/images/Top-12-Meaningful-Words-By-Study-Cropped.png"/>
 <details><summary>Graphic Code</summary>
-<p>
+<p markdown="1">
 
 ```R
 #################################################
@@ -173,7 +173,7 @@ That’s much better. Our findings from the heat map are confirmed: the immunoth
 
 ## Study Protocol Clusters
 <img src="{{ site.baseurl }}/images/Study-Protocol-Clusters.png"/>
-<details><summary>Graphic Code</summary>
+<details markdown="1"><summary>Graphic Code</summary>
 <p>
 
 ```R
@@ -291,9 +291,9 @@ Using text mining we’ve been able to determine what makes documents unique, an
 That’s what we’ll touch on next time when we scratch the surface of some of the applications for text mining in clinical trials research in Part 2.
 ## Additional Info and References
 
-In case you haven't noticed, the code for each graphic is provided beneath it. The protocols that served as data for this blog post, however, cannot be shared. Here's a code snippet from our data derivation process that'll give you an idea of what we did: <details><summary>Data Derivation Code</summary>
+In case you haven't noticed, the code for each graphic is provided beneath it. The protocols that served as data for this blog post, however, cannot be shared. Here's two code snippets from our data derivation process that'll give you an idea of what we did: 
+<details markdown="1"><summary>Generating tf-idf matrix</summary>
   
-### Code for generating tf-idf matrix
 <p>
   
 ```R
@@ -326,8 +326,11 @@ dp <- data_frame(path = protocol_files,
 ```
 </p>
 
-### Code for generating similarity matrix
-<p>
+</details>
+
+<details markdown="1"><summary>Generating similarity matrix</summary>
+ 
+<p markdown="1">
   
 ```R
 library(tidyverse)
