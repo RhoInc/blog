@@ -4,7 +4,7 @@ title: Custom safetyGraphics Workflows
 author: Jeremy Wildfire
 ---
 
-The `safetyGraphics` R package now supports for custom workflows allowing users to preload their own charts and data sets in the safetyGraphics Shiny Application. The best way to learn more is the new [Custom Workflows vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) - which has been briefly summarized below.
+The `safetyGraphics` R package now supports custom workflows allowing users to preload their own charts and data sets in the safetyGraphics Shiny Application. The best way to learn more is the new [Custom Workflows vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) - which has been briefly summarized below.
 
 The new [v1.1 release](https://github.com/SafetyGraphics/safetyGraphics/releases/tag/v1.1.0) of [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics) is [available now on CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html).
   
@@ -52,4 +52,8 @@ Once the app opens, click the charts tab to view the new custom "hello_world" ch
 
 <img src="https://user-images.githubusercontent.com/3680095/71821298-c0080980-305f-11ea-979e-6574ac30f706.png" style='max-width:700px'>
 
-Again, see the [Custom Workflows vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Custom-Workflows) for details and more complex examples.
+Again, see the [Custom Workflows vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) 
+
+
+
+details and more complex examples.
